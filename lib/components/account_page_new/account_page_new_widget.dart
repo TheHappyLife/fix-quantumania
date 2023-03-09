@@ -213,121 +213,121 @@ class _AccountPageNewWidgetState extends State<AccountPageNewWidget>
               ),
             ],
           ),
-          Padding(
-            padding: EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
-            child: Wrap(
-              spacing: 8.0,
-              runSpacing: 8.0,
-              alignment: WrapAlignment.start,
-              crossAxisAlignment: WrapCrossAlignment.start,
-              direction: Axis.horizontal,
-              runAlignment: WrapAlignment.start,
-              verticalDirection: VerticalDirection.down,
-              clipBehavior: Clip.none,
-              children: [
-                InkWell(
-                  onTap: () async {
-                    context.pushNamed('Profile');
+          // Padding(
+          //   padding: EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
+          //   child: Wrap(
+          //     spacing: 8.0,
+          //     runSpacing: 8.0,
+          //     alignment: WrapAlignment.start,
+          //     crossAxisAlignment: WrapCrossAlignment.start,
+          //     direction: Axis.horizontal,
+          //     runAlignment: WrapAlignment.start,
+          //     verticalDirection: VerticalDirection.down,
+          //     clipBehavior: Clip.none,
+          //     children: [
+          //       InkWell(
+          //         onTap: () async {
+          //           context.pushNamed('Profile');
 
-                    await lottieProfileController.forward();
-                    lottieProfileController.reset();
-                  },
-                  child: Container(
-                    width: MediaQuery.of(context).size.width * 1.0,
-                    decoration: BoxDecoration(
-                      color: Color(0x00FFFFFF),
-                    ),
-                    child: Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(
-                          24.0, 14.0, 24.0, 14.0),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Lottie.asset(
-                            'assets/lottie_animations/306-avatar-icon-calm-outline-edited.json',
-                            width: 36.0,
-                            height: 36.0,
-                            fit: BoxFit.cover,
-                            controller: lottieProfileController,
-                            onLoaded: (composition) => lottieProfileController
-                                .duration = composition.duration,
-                          ),
-                          Expanded(
-                            child: wrapWithModel(
-                              model: _model.menuItemTextModel1,
-                              updateCallback: () => setState(() {}),
-                              child: MenuItemTextWidget(
-                                title: 'Profile',
-                                subTitle: '',
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
-                InkWell(
-                  onTap: () async {
-                    await showModalBottomSheet(
-                      isScrollControlled: true,
-                      backgroundColor: Color(0x4D000000),
-                      barrierColor: Color(0x4D000000),
-                      context: context,
-                      builder: (context) {
-                        return Padding(
-                          padding: MediaQuery.of(context).viewInsets,
-                          child: Container(
-                            height: MediaQuery.of(context).size.height * 1.0,
-                            child: LogOutConfirmWidget(),
-                          ),
-                        );
-                      },
-                    ).then((value) => setState(() {}));
+          //           await lottieProfileController.forward();
+          //           lottieProfileController.reset();
+          //         },
+          //         child: Container(
+          //           width: MediaQuery.of(context).size.width * 1.0,
+          //           decoration: BoxDecoration(
+          //             color: Color(0x00FFFFFF),
+          //           ),
+          //           child: Padding(
+          //             padding: EdgeInsetsDirectional.fromSTEB(
+          //                 24.0, 14.0, 24.0, 14.0),
+          //             child: Row(
+          //               mainAxisSize: MainAxisSize.max,
+          //               mainAxisAlignment: MainAxisAlignment.start,
+          //               children: [
+          //                 Lottie.asset(
+          //                   'assets/lottie_animations/306-avatar-icon-calm-outline-edited.json',
+          //                   width: 36.0,
+          //                   height: 36.0,
+          //                   fit: BoxFit.cover,
+          //                   controller: lottieProfileController,
+          //                   onLoaded: (composition) => lottieProfileController
+          //                       .duration = composition.duration,
+          //                 ),
+          //                 Expanded(
+          //                   child: wrapWithModel(
+          //                     model: _model.menuItemTextModel1,
+          //                     updateCallback: () => setState(() {}),
+          //                     child: MenuItemTextWidget(
+          //                       title: 'Profile',
+          //                       subTitle: '',
+          //                     ),
+          //                   ),
+          //                 ),
+          //               ],
+          //             ),
+          //           ),
+          //         ),
+          //       ),
+          //       InkWell(
+          //         onTap: () async {
+          //           await showModalBottomSheet(
+          //             isScrollControlled: true,
+          //             backgroundColor: Color(0x4D000000),
+          //             barrierColor: Color(0x4D000000),
+          //             context: context,
+          //             builder: (context) {
+          //               return Padding(
+          //                 padding: MediaQuery.of(context).viewInsets,
+          //                 child: Container(
+          //                   height: MediaQuery.of(context).size.height * 1.0,
+          //                   child: LogOutConfirmWidget(),
+          //                 ),
+          //               );
+          //             },
+          //           ).then((value) => setState(() {}));
 
-                    await lottieLogoutController.forward();
-                    lottieLogoutController.reset();
-                  },
-                  child: Container(
-                    width: MediaQuery.of(context).size.width * 1.0,
-                    decoration: BoxDecoration(
-                      color: Color(0x00FFFFFF),
-                    ),
-                    child: Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(
-                          24.0, 14.0, 24.0, 14.0),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Lottie.asset(
-                            'assets/lottie_animations/2129-login-outline-edited.json',
-                            width: 36.0,
-                            height: 36.0,
-                            fit: BoxFit.cover,
-                            controller: lottieLogoutController,
-                            onLoaded: (composition) => lottieLogoutController
-                                .duration = composition.duration,
-                          ),
-                          Expanded(
-                            child: wrapWithModel(
-                              model: _model.menuItemTextModel2,
-                              updateCallback: () => setState(() {}),
-                              child: MenuItemTextWidget(
-                                title: 'Log Out',
-                                subTitle: '',
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
+          //           await lottieLogoutController.forward();
+          //           lottieLogoutController.reset();
+          //         },
+          //         child: Container(
+          //           width: MediaQuery.of(context).size.width * 1.0,
+          //           decoration: BoxDecoration(
+          //             color: Color(0x00FFFFFF),
+          //           ),
+          //           child: Padding(
+          //             padding: EdgeInsetsDirectional.fromSTEB(
+          //                 24.0, 14.0, 24.0, 14.0),
+          //             child: Row(
+          //               mainAxisSize: MainAxisSize.max,
+          //               mainAxisAlignment: MainAxisAlignment.start,
+          //               children: [
+          //                 Lottie.asset(
+          //                   'assets/lottie_animations/2129-login-outline-edited.json',
+          //                   width: 36.0,
+          //                   height: 36.0,
+          //                   fit: BoxFit.cover,
+          //                   controller: lottieLogoutController,
+          //                   onLoaded: (composition) => lottieLogoutController
+          //                       .duration = composition.duration,
+          //                 ),
+          //                 Expanded(
+          //                   child: wrapWithModel(
+          //                     model: _model.menuItemTextModel2,
+          //                     updateCallback: () => setState(() {}),
+          //                     child: MenuItemTextWidget(
+          //                       title: 'Log Out',
+          //                       subTitle: '',
+          //                     ),
+          //                   ),
+          //                 ),
+          //               ],
+          //             ),
+          //           ),
+          //         ),
+          //       ),
+          //     ],
+          //   ),
+          // ),
           // InkWell(
           //   onTap: () async {
           //     await launchUrl(Uri(
