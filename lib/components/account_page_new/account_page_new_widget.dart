@@ -301,25 +301,25 @@ class _AccountPageNewWidgetState extends State<AccountPageNewWidget>
                         mainAxisSize: MainAxisSize.max,
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          // Lottie.asset(
-                          //   'assets/lottie_animations/2129-login-outline-edited.json',
-                          //   width: 36.0,
-                          //   height: 36.0,
-                          //   fit: BoxFit.cover,
-                          //   controller: lottieLogoutController,
-                          //   onLoaded: (composition) => lottieLogoutController
-                          //       .duration = composition.duration,
-                          // ),
-                          Expanded(
-                            child: wrapWithModel(
-                              model: _model.menuItemTextModel2,
-                              updateCallback: () => setState(() {}),
-                              child: MenuItemTextWidget(
-                                title: 'Log Out',
-                                subTitle: '',
-                              ),
-                            ),
+                          Lottie.asset(
+                            'assets/lottie_animations/2129-login-outline-edited.json',
+                            width: 36.0,
+                            height: 36.0,
+                            fit: BoxFit.cover,
+                            controller: lottieLogoutController,
+                            onLoaded: (composition) => lottieLogoutController
+                                .duration = composition.duration,
                           ),
+                          // Expanded(
+                          //   child: wrapWithModel(
+                          //     model: _model.menuItemTextModel2,
+                          //     updateCallback: () => setState(() {}),
+                          //     child: MenuItemTextWidget(
+                          //       title: 'Log Out',
+                          //       subTitle: '',
+                          //     ),
+                          //   ),
+                          // ),
                         ],
                       ),
                     ),
@@ -360,7 +360,7 @@ class _AccountPageNewWidgetState extends State<AccountPageNewWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 8.0),
                               child: Text(
-                                'Support Centerrr',
+                                'Support Center',
                                 textAlign: TextAlign.start,
                                 style: FlutterFlowTheme.of(context)
                                     .title1
