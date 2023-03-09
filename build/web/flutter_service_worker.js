@@ -150,10 +150,10 @@ const RESOURCES = {
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "313898aa1199ab56cfc93f535a46c476",
-"/": "313898aa1199ab56cfc93f535a46c476",
+"index.html": "0bbe40f24790939199cfa498ae9d6fd6",
+"/": "0bbe40f24790939199cfa498ae9d6fd6",
 "logo_app_quantum.png": "04c3bc6addb9fdf30f4b53ef4a9363d6",
-"main.dart.js": "38d54334511581956fd411c5d93310bc",
+"main.dart.js": "144c5f9215b05326d313974e66583367",
 "manifest.json": "b472ad3ead634e256fb39736989875d8",
 "version.json": "980e1c2f76445882a86fd11f705593c6"
 };
