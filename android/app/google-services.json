@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "50029446516",
+    "project_id": "news-30800",
+    "storage_bucket": "news-30800.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50029446516:android:3145ba5aa481d6384ad821",
+        "android_client_info": {
+          "package_name": "com.mycompany.logingg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50029446516-id4robaub9449cb3f858bodfqb7hue3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpWZcdrTBYa2rVwcYSo7gdGwXNUMLHpqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50029446516-id4robaub9449cb3f858bodfqb7hue3f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "50029446516-2ndrdkmvj5keofj7lrvt86ivpfq6s0rg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.quantum"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50029446516:android:d06c5a706254c6144ad821",
+        "android_client_info": {
+          "package_name": "com.quantum.explore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50029446516-2gqjp4v0q2kqnsqqb5ju1mifi6d0h4h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quantum.explore",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "50029446516-id4robaub9449cb3f858bodfqb7hue3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpWZcdrTBYa2rVwcYSo7gdGwXNUMLHpqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50029446516-id4robaub9449cb3f858bodfqb7hue3f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "50029446516-2ndrdkmvj5keofj7lrvt86ivpfq6s0rg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.quantum"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50029446516:android:c97ffcb346f9ce584ad821",
+        "android_client_info": {
+          "package_name": "com.quantumania.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50029446516-id4robaub9449cb3f858bodfqb7hue3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpWZcdrTBYa2rVwcYSo7gdGwXNUMLHpqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50029446516-id4robaub9449cb3f858bodfqb7hue3f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "50029446516-2ndrdkmvj5keofj7lrvt86ivpfq6s0rg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.quantum"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
