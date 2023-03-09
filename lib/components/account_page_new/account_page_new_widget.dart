@@ -328,88 +328,88 @@ class _AccountPageNewWidgetState extends State<AccountPageNewWidget>
           //     ],
           //   ),
           // ),
-          // InkWell(
-          //   onTap: () async {
-          //     await launchUrl(Uri(
-          //       scheme: 'mailto',
-          //       path: 'support@quantumania.capital',
-          //     ));
-          //   },
-          //   child: Container(
-          //     width: MediaQuery.of(context).size.width * 1.0,
-          //     decoration: BoxDecoration(
-          //       color: FlutterFlowTheme.of(context).aliasGrayscaleBackground,
-          //     ),
-          //     child: Padding(
-          //       padding: EdgeInsetsDirectional.fromSTEB(24.0, 28.0, 24.0, 0.0),
-          //       child: Row(
-          //         mainAxisSize: MainAxisSize.max,
-          //         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          //         crossAxisAlignment: CrossAxisAlignment.center,
-          //         children: [
-          //           Expanded(
-          //             child: Padding(
-          //               padding:
-          //                   EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
-          //               child: Column(
-          //                 mainAxisSize: MainAxisSize.min,
-          //                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          //                 crossAxisAlignment: CrossAxisAlignment.start,
-          //                 children: [
-          //                   Padding(
-          //                     padding: EdgeInsetsDirectional.fromSTEB(
-          //                         0.0, 0.0, 0.0, 8.0),
-          //                     child: Text(
-          //                       'Support Centerrr',
-          //                       textAlign: TextAlign.start,
-          //                       style: FlutterFlowTheme.of(context)
-          //                           .title1
-          //                           .override(
-          //                             fontFamily: FlutterFlowTheme.of(context)
-          //                                 .title1Family,
-          //                             color: FlutterFlowTheme.of(context)
-          //                                 .aliasGrayscaleLabel,
-          //                             useGoogleFonts: GoogleFonts.asMap()
-          //                                 .containsKey(
-          //                                     FlutterFlowTheme.of(context)
-          //                                         .title1Family),
-          //                             lineHeight: 1.6,
-          //                           ),
-          //                     ),
-          //                   ),
-          //                   Text(
-          //                     'Have any question? \nPlease click to send an email and let us help you.',
-          //                     textAlign: TextAlign.start,
-          //                     style: FlutterFlowTheme.of(context)
-          //                         .bodyText2
-          //                         .override(
-          //                           fontFamily: FlutterFlowTheme.of(context)
-          //                               .bodyText2Family,
-          //                           color:
-          //                               FlutterFlowTheme.of(context).neutrals4,
-          //                           fontWeight: FontWeight.normal,
-          //                           useGoogleFonts: GoogleFonts.asMap()
-          //                               .containsKey(
-          //                                   FlutterFlowTheme.of(context)
-          //                                       .bodyText2Family),
-          //                           lineHeight: 1.6,
-          //                         ),
-          //                   ),
-          //                 ],
-          //               ),
-          //             ),
-          //           ),
-          //           Image.asset(
-          //             'assets/images/support-center.png',
-          //             width: 140.0,
-          //             height: 140.0,
-          //             fit: BoxFit.cover,
-          //           ),
-          //         ],
-          //       ),
-          //     ),
-          //   ),
-          // ),
+          InkWell(
+            onTap: () async {
+              await launchUrl(Uri(
+                scheme: 'mailto',
+                path: 'support@quantumania.capital',
+              ));
+            },
+            child: Container(
+              width: MediaQuery.of(context).size.width * 1.0,
+              decoration: BoxDecoration(
+                color: FlutterFlowTheme.of(context).aliasGrayscaleBackground,
+              ),
+              child: Padding(
+                padding: EdgeInsetsDirectional.fromSTEB(24.0, 28.0, 24.0, 0.0),
+                child: Row(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Expanded(
+                      child: Padding(
+                        padding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 0.0, 0.0, 8.0),
+                              child: Text(
+                                'Support Centerrr',
+                                textAlign: TextAlign.start,
+                                style: FlutterFlowTheme.of(context)
+                                    .title1
+                                    .override(
+                                      fontFamily: FlutterFlowTheme.of(context)
+                                          .title1Family,
+                                      color: FlutterFlowTheme.of(context)
+                                          .aliasGrayscaleLabel,
+                                      useGoogleFonts: GoogleFonts.asMap()
+                                          .containsKey(
+                                              FlutterFlowTheme.of(context)
+                                                  .title1Family),
+                                      lineHeight: 1.6,
+                                    ),
+                              ),
+                            ),
+                            Text(
+                              'Have any question? \nPlease click to send an email and let us help you.',
+                              textAlign: TextAlign.start,
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText2
+                                  .override(
+                                    fontFamily: FlutterFlowTheme.of(context)
+                                        .bodyText2Family,
+                                    color:
+                                        FlutterFlowTheme.of(context).neutrals4,
+                                    fontWeight: FontWeight.normal,
+                                    useGoogleFonts: GoogleFonts.asMap()
+                                        .containsKey(
+                                            FlutterFlowTheme.of(context)
+                                                .bodyText2Family),
+                                    lineHeight: 1.6,
+                                  ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Image.asset(
+                      'assets/images/support-center.png',
+                      width: 140.0,
+                      height: 140.0,
+                      fit: BoxFit.cover,
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
