@@ -311,7 +311,7 @@ class _AccountPageNewWidgetState extends State<AccountPageNewWidget>
                           //       .duration = composition.duration,
                           // ),
                           Image.asset(
-                            'assets/images/Complete.svg',
+                            'assets/images/Avt.png',
                             width: 36.0,
                             height: 36.0,
                           ),
