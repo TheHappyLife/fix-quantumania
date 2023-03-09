@@ -357,7 +357,7 @@ class _AccountPageNewWidgetState extends State<AccountPageNewWidget>
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 8.0),
                               child: Text(
-                                'Support Center',
+                                'Support Centerrr',
                                 textAlign: TextAlign.start,
                                 style: FlutterFlowTheme.of(context)
                                     .title1
