@@ -310,6 +310,11 @@ class _AccountPageNewWidgetState extends State<AccountPageNewWidget>
                           //   onLoaded: (composition) => lottieLogoutController
                           //       .duration = composition.duration,
                           // ),
+                          Image.asset(
+                            'assets/images/Complete.svg',
+                            width: 36.0,
+                            height: 36.0,
+                          ),
                           Expanded(
                             child: wrapWithModel(
                               model: _model.menuItemTextModel2,

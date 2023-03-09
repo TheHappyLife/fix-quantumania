@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "856cf3dda423be5dbea31080e91399e9",
+  "assets/AssetManifest.json": "78d937210d6f5cfb75562c9033b46704",
 "assets/assets/audios/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/fonts/impact.ttf": "8fc622c3a2e2d992ec059cca61e3dfc0",
@@ -52,6 +52,7 @@ const RESOURCES = {
 "assets/assets/images/Coin_icon_3.png": "f9d35c05a638431ee452190510ade5e0",
 "assets/assets/images/coin_update.png": "9e60b80b6919bb1fbe8ccca8687bd128",
 "assets/assets/images/Complete-2.png": "18667bc1fd6cd299ba0f9fdcd23c3cc8",
+"assets/assets/images/Complete.svg": "04bbccf4e032476792d397215da37279",
 "assets/assets/images/cover-photo.jpeg": "868ef2ffd29579c797f173f53367782e",
 "assets/assets/images/credit-card.svg": "2645b0fd031c7164f10cd5c0106af854",
 "assets/assets/images/device-phone.png": "7e1b706219098139be317ed321da87c7",
@@ -150,10 +151,10 @@ const RESOURCES = {
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "f70008b8f2495442c7345d92a57da27d",
-"/": "f70008b8f2495442c7345d92a57da27d",
+"index.html": "13854c8a0b197d5c7dfc3160a69535bc",
+"/": "13854c8a0b197d5c7dfc3160a69535bc",
 "logo_app_quantum.png": "04c3bc6addb9fdf30f4b53ef4a9363d6",
-"main.dart.js": "a521887e7f5ee25303bc3b62c1cf6f73",
+"main.dart.js": "53d52e7a6af7f0df0a568c229dac5be4",
 "manifest.json": "b472ad3ead634e256fb39736989875d8",
 "version.json": "980e1c2f76445882a86fd11f705593c6"
 };
